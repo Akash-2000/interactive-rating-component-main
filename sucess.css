@@ -1,0 +1,153 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-body{
+    background-color: hsl(216, 12%, 8%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content{
+  background-image: linear-gradient(rgba(255,255,255,0.1),rgba(37,45,55,0.6),rgba(37,45,55,1));  
+  border-radius: 8%;
+  width: 25%;
+  height: 60%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 0px 20px;
+    padding-top: 10px;
+    height: 100%;
+    justify-content: center;
+    
+  }
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    display: flex;
+    font-size:20px;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+  .grid-item-final{
+    align-items:flex-start;
+  }
+
+  .grid-item1{
+      display:grid;
+      grid-template-columns:auto auto auto auto auto;
+      height: 30px;
+      justify-content: space-between; 
+      align-content: flex-start;
+      /* background-color: rgba(255, 255, 255, 1); */
+  
+  }
+  .grid-item2{
+   
+    align-content: center;
+   
+
+  }
+  .button{
+    background-color:hsl(217, 12%, 63%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color:hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .button span{
+    font-size: 18px;
+  }
+  .submitButton{
+    background-color: aliceblue;
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(25, 97%, 53%);
+   
+  }
+  .submitButton span{
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+
+  }
+  .star-image{
+    background-color: hsl(213, 19%, 18%);
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .grid-item h3 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+
+  }
+
+  .grid-item p {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+
+  }
+  .paragraph{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  /* styles.css */
+/* Reset default styles for anchor elements */
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+}
+
+.Ratings{
+  background-color: hsl(216, 12%, 54%) ;
+  padding: 8px;
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+  font-size: 18px;
+  width: 80%;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+}
+.finalParagraph{
+  font-size: 15px;
+  text-align: center;
+  color:  hsl(0, 0%, 100%);
+  font-family: 'Overpass', sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .center-content {
+    width: 90%;
+  }
+}
