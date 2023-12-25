@@ -16,6 +16,7 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
 </head>
 <body>
 
@@ -37,34 +38,33 @@
         </div>  
         <div class="grid-item grid-item1" >
               <div class="grid-item2" onclick="handleClick(event)" id="1">
-                <div class="button" id="1">
+                <div class="button" tabindex="1" id="1">
                   <span id="1">1</span>
                 </div>
               </div>
               <div class="grid-item2" onclick="handleClick(event)" id="2">
-                <div class="button"  id="2">
+                <div class="button" tabindex="1" id="2">
                   <span id="2">2</span>
                 </div>
               </div>
               <div class="grid-item2" onclick="handleClick(event)" id="3">
-                <div class="button" id="3">
+                <div class="button" tabindex="1" id="3">
                   <span id="3">3</span>
                 </div>
               </div>
               <div class="grid-item2" onclick="handleClick(event)" id="4">
-              <div class="button" style="background-color:hsl(216, 12%, 54%) ;" id="4">
+              <div class="button" tabindex="1" id="4">
                 <span id="4">4</span>
               </div></div>
               <div class="grid-item2" onclick="handleClick(event)" id="5">
-                <div class="button" style="background-color: hsl(25, 97%, 53%)
-                ;" id="5">
+                <div class="button" tabindex="1"  id="5">
                   <span id="5">5</span>
                 </div>
               </div>
         </div>
         <div class="grid-item paragraph">
-          <div class="submitButton">
-              <span><a class="plain-link"  href="sucees.html?key1=4">Submit</a></span>
+          <div class="submitButton-div">
+            <a class="plain-link submitButton"  href="sucees.html?key1=4"><button class="submitButton">Submit</button></a>
           </div>
         </div>
       </div>
